@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@600;700;800&display=swap');
+body{
+font-family: 'Raleway', sans-serif;
+}
+.sss{
+    display: flex;
+width: auto;
+height: auto;
+padding: 191px 256px 192px 256px;
+justify-content: center;
+align-items: center;
+background: #36384D;
+
+}
+
+.ss{
+    display: grid;
+    grid-template-columns: 1pt 1pt;
+    margin-right: 900px;
+}
+
+.tex{
+    width: 424px;
+    height: 593px;
+    margin-top: 80px;
+    margin-left: 40px;
+    border: 3px;
+    
+}
+
+.wrapper {
+    width: 928px;
+    height: 641px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 34px;
+    background: #FEFCFD;
+    
+}
+
+.wrapper2{
+    width: 400px;
+    height: 593px;
+    margin-top: 24px;
+    margin-left: 503px;
+    
+}
+.email {
+    margin-top: 46px;
+    
+}
+
+.zxc{
+    visibility: hidden;
+    color: #ff0000;
+}
+
+.z{
+    width: 376px;
+    height: 56px;
+    top: 407px;
+    left: 64px;
+    border-radius: 9px;
+    border: 1px;
+    
+}
+
+input{
+    width: 376px;
+    height: 56px;
+    top: 407px;
+    left: 64px;
+    border-radius: 9px;
+    
+    border: 1px solid rgba(54, 56, 77, 1)
+    
+}
+
+
+
+
+.knopca{
+    width: 381px;
+    height: 56px;
+    margin-top: 10px;
+    left: 64px;
+    border-radius: 9px;
+    
+background: linear-gradient(90deg, #FF5379 0%, #FF693E 100%);
+    
+}
+.knopca:hover{
+    width: 381px;
+    height: 56px;
+    top: 407px;
+    left: 64px;
+    border-radius: 9px;
+    
+background: linear-gradient(90deg, #585455 0%, #f8f4f2 100%);
+}
+
+@media (orientation: portrait) {
+
+    .sss{
+        display: flex;
+        width: 390px;
+        height: 844px;
+
+    
+    }
+    
+    .ss{
+        display: grid;
+        grid-template-columns: 1pt;
+        width: 390px;
+height: 844px;
+    }
+    
+    .tex{
+        width: 322px;
+height: 72px;
+        margin-top: 300px;
+        margin-left: 40px;
+        border: 3px;
+        
+    }
+    
+    .wrapper {
+        width: 390px;
+height: 844px;
+
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 34px;
+        background: #FEFCFD;
+        
+    }
+    
+    .wrapper2{
+        width: 200px;
+        height: 593px;
+        margin-top: -850px;
+        margin-left: 0px;
+        
+        
+    }
+
+    .raz{
+        width: 392px;
+        height: 295px;
+
+    }
+
+    .email {
+        margin-top: 50px;
+        
+    }
+    
+    .z{
+        width: 390px;
+height: 844px;
+        margin-top: -35px;
+        left: 64px;
+        border-radius: 9px;
+        border: 1px;
+        
+    }
+    
+    input{
+        width: 322px;
+height: 56px;
+flex-shrink: 0;
+        top: 407px;
+        left: 64px;
+        border-radius: 9px;
+        
+        border: 1px solid rgba(54, 56, 77, 1)
+        
+    }
+    
+    .knopca{
+        width: 329px;
+        height: 56px;
+        margin-top: 20px;;
+        left: 64px;
+        border-radius: 9px;
+        
+        
+  }
+
+}
+
+

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@600;700;800&display=swap');
+body{
+font-family: 'Raleway', sans-serif;
+}
+.cash{
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 251px 468px 252px 469px;
+    justify-content: center;
+    align-items: center;
+    background: #36384D;
+}
+
+.privet{
+    width: 503px;
+    height: 521px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: #FFF;
+}
+
+.iconka{
+    width: 64px;
+    height: 64px;
+    margin-top: 48px;
+    margin-left: 64px;
+}
+
+.slova{
+    width: 282px;
+    height: 112px;
+    margin-top: 36px;
+    margin-left: 64px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.slovaa{
+    width: 357px;
+    height: 72px;
+    margin-top: -29px;
+    margin-left: 64px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.szamk{
+    width: 376px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 64px;
+    border-radius: 9px;
+    color: #FFF;
+    background: rgba(54, 56, 77, 1);
+
+}
+
+.szamk:hover{
+    width: 376px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 64px;
+    border-radius: 9px;
+    color: #FFF;
+    background: rgb(1, 22, 248);
+
+}
+
+@media (orientation: portrait){
+    
+    .cash{
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+        background: #36384D;
+    }
+    
+    .privet{
+        width: 503px;
+        height: 521px;
+        flex-shrink: 0;
+        border-radius: 36px;
+        background: #FFF;
+    }
+    
+    .iconka{
+        width: 64px;
+        height: 64px;
+        margin-top: 48px;
+        margin-left: 64px;
+    }
+    
+    .slova{
+        width: 282px;
+        height: 112px;
+        margin-top: 36px;
+        margin-left: 64px;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+    }
+    
+    .slovaa{
+        width: 357px;
+        height: 72px;
+        margin-top: -29px;
+        margin-left: 64px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    
+    .szamk{
+        width: 376px;
+        height: 56px;
+        margin-top: 200px;
+        margin-left: 64px;
+        border-radius: 9px;
+        color: #FFF;
+        background: rgba(54, 56, 77, 1);
+    
+    }
+}
